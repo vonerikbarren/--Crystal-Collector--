@@ -20,11 +20,14 @@
 
   <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css?family=Amarante|Inria+Serif|Libre+Baskerville|Sacramento&display=swap"
+    rel="stylesheet">
+
   <!-- // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Head Section A.4: Projec CSS files using SASS
   //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 
 
   <title>Hello, world!</title>
@@ -42,16 +45,163 @@
   <div class='container-fluid'>
     <div class='row'>
       <div class='col-md-12'>
-        <div id='sketch1' class='jumbotron bg-transparent'>
+        <div id='app' class='jumbotron bg-transparent'>
 
-          <center>
-            <h1>Crystal Collectors</h1>
-          </center>
+          <h1 class='text-center'> Crystal Collector </h1>
+          </hr>
+
+          </br>
+
+          <div class='row'>
+            <div class='col-md-4'>
+
+            </div>
+
+            <div class='col-md-4'>
+              <p id='p1' class='description text-center'>
+                You will be given a random number at the start of the game.
+              </p>
+
+              </br>
+
+              <p id='p2' class='description text-center'>
+                There are four crystals below. by clicking on a crystal you will add a specific amount of points to your
+                total score.
+              </p>
+
+              </br>
+
+              <p id='p3' class='description text-center'>
+                You win the game by matching your total score to a random number, you lose the game if your total score
+                goes
+                above the random number.
+              </p>
+
+              </br>
+
+              <p id='p4' class='description text-center'>
+                The value of each crystal is hidden from you until you click on it.
+              </p>
+
+              </br>
+
+              <p id='p5' class='description text-center'>
+                Each time whe the game starts, the game will change the values of each crystal.
+              </p>
+
+              </br>
 
 
+
+            </div>
+
+            <div class='col-md-4'>
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+          <div class="wrapper">
+            <div id="randomNumber" class='text-center'></div>
+            <div class="scoring text-center">
+              <div id="result"></div>
+              <p class='text-center' style="display: inline-block; margin-bottom: 0;">Wins: <div id="wins"></div>
+              </p>
+              <p class='text-center' style="display: inline-block; margin-top: 0;">Losses: <div id="losses"></div>
+              </p>
+            </div>
+          </div><br>
+
+          <div class='row'>
+            <div class='col-md-12'>
+              <div id='gems' class='jumbotron bg-transparent'>
+                <div class="crystals">
+                  <div class='row'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-4'>
+                      <img class="crystal" id="blueCrystal" src="./svg/crystal.svg" alt="Blue Sapphire" width="75"
+                        height="75" id="blue">
+                      <img class="crystal" id="greenCrystal"
+                        src="https://harithimad.github.io/crystal-collector/assets/images/green.png" alt="Green Emerald"
+                        width="75" height="75" id="green">
+                      <img class="crystal" id="purpleCrystal"
+                        src="http://adamchampagne.com/crystal-collector/assets/images/purple-crystal.png"
+                        alt="Purple Gem" width="75" height="75" id="purple">
+                      <img class="crystal" id="redCrystal"
+                        src="https://avatars0.githubusercontent.com/u/210414?s=400&v=4" alt="Red Ruby" width="75"
+                        height="75">
+
+
+                    </div>
+                    <div class='col-md-4'>
+
+                    </div>
+
+
+
+                  </div>
+
+                  </br>
+                  </br>
+                  </br>
+
+                  <div class='row'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-4'>
+                      <p class="totalLabel text-left">Your total score is:
+                        <div id="score" class='text-left'></div>
+                      </p>
+
+
+                    </div>
+                    <div class='col-md-4'>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
         </div>
       </div>
+
+      <div class='row'>
+        <div class='col-md-12'>
+          <div id='extra' class='jumbotron bg-transparent'>
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
     </div>
+  </div>
   </div>
 
 
@@ -88,6 +238,7 @@
   <script src="./libraries/p5.js"></script>
   <script src="./libraries/d3.js"></script>
   <script src="./Animation/sketch.js"></script>
+  <script src="./log/function.js"></script>
 
   <script src="./Animation/masterAnimation.js"></script>
 
