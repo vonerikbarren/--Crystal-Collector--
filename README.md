@@ -14,6 +14,7 @@
 3. Solve the game by creating a strategy.
 4. Let the game keep track of your score & keep playing.
 5. When done pat yourself on the back. 
+6. Play Again!
 
 
 ## Section 3 - Summary & Notes:
