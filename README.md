@@ -20,6 +20,7 @@
 ## Section 3 - Summary & Notes:
 
 ### Summary 
-
+- This app although in reality looks very simple was my first opportunity to make something solid and purposeful in javascript. So it was really exciting to do something outside of html and css.
 
 ### Notes 
+- No Current Notes 
