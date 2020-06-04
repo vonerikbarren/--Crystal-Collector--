@@ -9,9 +9,11 @@
 ### Overall Directions:
 - The user is to figure out how to get the number listed to match the with the jewels that are given. 
 
-1. Read the instructions
-2. Look at the number that is presented
-3. 
+1. Read the instructions.
+2. Look at the number that is presented.
+3. Solve the game by creating a strategy.
+
+
 
 
 ## Section 3 - Summary & Notes:
