@@ -16,7 +16,7 @@
 5. When done pat yourself on the back. 
 6. Play Again!
 
-
+---
 ## Section 3 - Summary & Notes:
 
 ### Summary 
