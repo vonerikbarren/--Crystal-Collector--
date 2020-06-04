@@ -7,6 +7,9 @@
 ## Section 2 - Directions: 
 
 ### Overall Directions:
+- The user is to figure out how to get the number listed to match the with the jewels that are given. 
+
+1. Read the instructions
 
 
 
