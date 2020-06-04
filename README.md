@@ -13,7 +13,7 @@
 2. Look at the number that is presented.
 3. Solve the game by creating a strategy.
 4. Let the game keep track of your score & keep playing.
-
+5. When done pat yourself on the back. 
 
 
 ## Section 3 - Summary & Notes:
